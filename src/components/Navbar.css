@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #222;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #00ffcc;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #00ffcc;
+}
+.navbar {
+  background-color: #222;
+  padding: 10px 20px; /* Was 15px or more before */
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;       /* Makes it stay at top */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+

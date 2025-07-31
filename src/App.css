@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  padding-top: 70px;  /* To avoid navbar overlap */
+}
+
+h1 {
+  text-align: center;
+  padding: 40px;
+  color: #333;
+}
+html {
+  scroll-padding-top: 100px; /* or match your navbar height */
+}
+html {
+  scroll-padding-top: 100px; /* Makes anchor scroll leave space for navbar */
+}
+
